@@ -1,6 +1,6 @@
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -16,8 +16,27 @@
 
 #MainContainer{
 
-	background-image: url("../images/cork-wallet.png");
+	background-image: url("images/cork-wallet.png");
+	height: 90%;
+	
 }
+
+#linkPanel{
+	align-items: left;
+	//background-color: white;
+}
+
+#thumb1{
+
+	float: left;
+	margin: 15px;
+	
+}
+/*.Connects{
+	float: left;
+   text-align: right;
+   margin-left: 15px;
+  }*/
 
 
 
